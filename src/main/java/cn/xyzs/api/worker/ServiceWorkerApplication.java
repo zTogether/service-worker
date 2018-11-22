@@ -19,7 +19,7 @@ public class ServiceWorkerApplication {
 	public MapperScannerConfigurer create(){
 		MapperScannerConfigurer config = new MapperScannerConfigurer();
 		//设置mapper文件的包
-		config.setBasePackage("cn.xyzs.api.mapper");
+		config.setBasePackage("cn.xyzs.api.worker.mapper");
 		//固定配置
 		Properties p = new Properties();
 		p.setProperty("mappers","tk.mybatis.mapper.common.Mapper");
