@@ -2,8 +2,8 @@ package cn.xyzs.api.worker.service;
 
 import cn.xyzs.api.worker.mapper.MvCommoMenuMapper;
 import cn.xyzs.api.worker.mapper.XyGcbGrxxMapper;
-import cn.xyzs.api.worker.pojo.MvCommoMenu;
-import cn.xyzs.api.worker.util.MD5Util;
+import cn.xyzs.common.pojo.MvCommoMenu;
+import cn.xyzs.common.util.MD5Util;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

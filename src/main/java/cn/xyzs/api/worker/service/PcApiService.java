@@ -2,8 +2,8 @@ package cn.xyzs.api.worker.service;
 
 import cn.xyzs.api.worker.mapper.MvSysSmsMapper;
 import cn.xyzs.api.worker.mapper.XyPgMapper;
-import cn.xyzs.api.worker.pojo.MvSysSms;
-import cn.xyzs.api.worker.util.SendMsgUtil;
+import cn.xyzs.common.pojo.MvSysSms;
+import cn.xyzs.common.util.SendMsgUtil;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.mapper;
 
-import cn.xyzs.api.worker.pojo.XyExamManager;
+import cn.xyzs.common.pojo.XyExamManager;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

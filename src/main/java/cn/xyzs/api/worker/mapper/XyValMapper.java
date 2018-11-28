@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.mapper;
 
-import cn.xyzs.api.worker.pojo.XyVal;
+import cn.xyzs.common.pojo.XyVal;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;

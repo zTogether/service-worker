@@ -1,7 +1,7 @@
 package cn.xyzs.api.worker.service.getui;
 
 import cn.xyzs.api.worker.mapper.API.ClientAPIMapper;
-import cn.xyzs.api.worker.pojo.API.ClientAPI;
+import cn.xyzs.common.pojo.API.ClientAPI;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

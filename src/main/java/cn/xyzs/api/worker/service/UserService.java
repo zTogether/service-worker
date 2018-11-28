@@ -1,7 +1,7 @@
 package cn.xyzs.api.worker.service;
 
 import cn.xyzs.api.worker.mapper.UserMapper;
-import cn.xyzs.api.worker.util.MD5Util;
+import cn.xyzs.common.util.MD5Util;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;

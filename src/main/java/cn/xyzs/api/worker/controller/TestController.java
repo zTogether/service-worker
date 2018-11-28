@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.controller;
 
-import cn.xyzs.api.worker.pojo.TRole;
+import cn.xyzs.common.pojo.TRole;
 import cn.xyzs.api.worker.service.RoleService;
 import cn.xyzs.api.worker.service.UserService;
 import com.github.pagehelper.PageInfo;

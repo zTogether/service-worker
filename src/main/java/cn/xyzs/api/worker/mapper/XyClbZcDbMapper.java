@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.mapper;
 
-import cn.xyzs.api.worker.pojo.XyClbZcDb;
+import cn.xyzs.common.pojo.XyClbZcDb;
 import org.apache.ibatis.annotations.*;
 
 import java.sql.SQLException;

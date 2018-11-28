@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.mapper;
 
-import cn.xyzs.api.worker.pojo.XyStarEvaMain;
+import cn.xyzs.common.pojo.XyStarEvaMain;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;

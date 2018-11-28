@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.mapper;
 
-import cn.xyzs.api.worker.pojo.MvSysConfig;
+import cn.xyzs.common.pojo.MvSysConfig;
 import org.apache.ibatis.annotations.*;
 import tk.mybatis.mapper.common.Mapper;
 

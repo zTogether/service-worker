@@ -1,6 +1,6 @@
 package cn.xyzs.api.worker.mapper;
 
-import cn.xyzs.api.worker.pojo.XyPg;
+import cn.xyzs.common.pojo.XyPg;
 import org.apache.ibatis.annotations.*;
 import tk.mybatis.mapper.common.Mapper;
 

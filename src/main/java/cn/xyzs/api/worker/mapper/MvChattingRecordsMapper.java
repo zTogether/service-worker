@@ -1,6 +1,5 @@
 package cn.xyzs.api.worker.mapper;
-
-import cn.xyzs.api.worker.pojo.MvChattingRecords;
+import cn.xyzs.common.pojo.MvChattingRecords;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

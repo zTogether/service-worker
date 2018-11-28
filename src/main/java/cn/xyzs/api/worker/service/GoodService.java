@@ -1,8 +1,7 @@
 package cn.xyzs.api.worker.service;
 
 import cn.xyzs.api.worker.mapper.*;
-import cn.xyzs.api.worker.pojo.*;
-import cn.xyzs.api.worker.pojo.XyClbZcDb;
+import cn.xyzs.common.pojo.*;
 import com.codingapi.tx.annotation.ITxTransaction;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
