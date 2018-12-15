@@ -15,10 +15,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/App")
 public class TestController {
 
     private static final String FAR_SERVICE_DIR = "http://127.0.0.1/xyzs";//远程服务器接受文件的路由
     private static final long yourMaxRequestSize = 10000000;
+
+
+    private String port;
 
     @Resource
     private RoleService roleService;
@@ -27,6 +31,10 @@ public class TestController {
     @RequestMapping("index.do")
     public PageInfo<TRole> index(){
         return roleService.getRole();
+    }
+    @RequestMapping("index1.do")
+    public String index1(){
+        return "aa:";
     }
     @RequestMapping("roles.do")
     public PageInfo<Map<String,Object>> getRoles(){

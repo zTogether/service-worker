@@ -479,4 +479,10 @@ public interface XyPgWaiterMapper extends Mapper<XyPgWaiter>{
             "\txpw.CTR_CODE = #{ctrCode,jdbcType=VARCHAR}\n")
     public void updateWgYsDate(@Param("ctrCode") String ctrCode, @Param("ysDate") String ysDate);
 
+
+    @Select("SELECT COUNT(1) FROM XY_PG_WAITER T WHERE T.GR_ID=#{pgId} AND T.ZT='抢单成功' AND T.YS_DATE IS NULL")
+    public int getPdCount(String pgId);
+
+
+
 }

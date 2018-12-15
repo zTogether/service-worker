@@ -26,6 +26,7 @@ public class OpenTenderController {
     @ResponseBody
     @RequestMapping("/getOpenTenderInfo")
     public Map<String ,Object> getOpenTenderInfo(String grId){
+        System.err.println(openTenderService.getOpenTenderInfo(grId));
         return openTenderService.getOpenTenderInfo(grId);
     }
 

@@ -1,5 +1,6 @@
 package cn.xyzs.api.worker;
 
+import org.apache.activemq.command.ActiveMQQueue;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
@@ -13,6 +14,7 @@ import java.util.Properties;
 
 @SpringBootApplication
 @EnableCaching
+@EnableScheduling
 public class ServiceWorkerApplication {
 
 	public static void main(String[] args) {
@@ -29,4 +31,9 @@ public class ServiceWorkerApplication {
 		config.setProperties(p);
 		return config;
 	}
+	@Bean
+	public ActiveMQQueue queue() {
+		return new ActiveMQQueue("promoteAct");
+	}
+
 }

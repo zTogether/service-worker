@@ -78,4 +78,8 @@ public interface XyGcbGrxxMapper extends Mapper<XyGcbGrxx>{
             "\tGR_ID = #{grId,jdbcType=VARCHAR}\t" +
             "</script>")
     public void updateGrabSingleLevel(String grId) throws SQLException;
+
+
+    @Update("UPDATE XY_GCB_GRXX T SET T.GR_LEVEL_VM=(T.GR_LEVEL_VM+#{levelNum}) WHERE EXISTS(SELECT 1 FROM XY_PG_WAITER A WHERE A.PG_ID=#{pgId} AND A.ZT='抢单失败' AND A.GR_ID=T.GR_ID)")
+    public int addMVlevel(@Param("pgId") String pgId,@Param("levelNum")double levelNum);
 }
